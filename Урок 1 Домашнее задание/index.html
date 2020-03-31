@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru"> 
+<head>
+    <meta charset="UTF-8">
+    <title>Крышки</title>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">    
+   <style>
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+body{
+    background: #23273C;
+}
+.app-wrapper{
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto auto;
+    color: #fff;
+}
+.app-wrapper p{
+    
+    font-size: 2em
+}
+.app-wrapper input{
+    width: 100%;
+    height: 40.06px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    font-size: 1em;
+    border-radius: 2;
+}
+
+.app-wrapper .buttonSet{
+    flex-direction: row;
+}
+
+.app-wrapper .buttonSet .confirmButton{
+    width: 190.43px;
+    height: 40.06px;
+    background: #6341D2;
+    color: #fff;
+    font-family: Ubuntu;
+    font-size: 12px;
+    letter-spacing: 0em;
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 52px;
+}
+
+.app-wrapper .buttonSet .cancelbutton{
+    width: 114px;
+    height: 40.06px;
+    background: rgba(255, 255, 255, 0);
+    color: #A1AEB7;
+    font-family: Ubuntu;
+    font-size: 12px;
+    letter-spacing: 0em;
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 52px;
+    border: 2px solid #6341D2
+
+    
+
+}
+
+.app-wrapper .confirmButton .cancel{
+    width: 190.43px;
+    height: 40.06px;
+    background: #ffffff;
+    color: #fff;
+    font-family: Ubuntu;
+    
+    font-size: 12px;
+    letter-spacing: 0em;
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 52px;
+}
+
+.app-wrapper button:hover{
+    background: rgb(15, 112, 156);
+}
+
+    body{
+        padding: 50px;
+    }
+
+
+   </style>
+</head>
+<body>
+    
+ <div id="balls" class="app-wrapper">
+     <p>{{message}}</p>
+     <input type="text" placeholder="Enter some text" v-model="message">
+     <div class="buttonSet">
+      <button class="cancelbutton"  v-on:click="clearMessage">Clear</button>
+        <button class="buttonSet confirmButton" v-on:click="reverseMessage">Reverse message</button>
+    </div>
+ </div>   
+               
+    <div id="app" class="container">
+       <h1>HUESOS</h1>
+        <ul class="list-group">
+            <li v-for="item in collection" class="list-group-item">
+                {{ item }}
+            </li>
+        </ul>
+        <hr>
+        <div class="btn-toolbar">
+           <div class="btn-group">
+               <button class="btn btn-primary" v-for="p in pagination.pages" @click.prevent="setPage(p)">
+                   {{p}}
+               </button>
+           </div> 
+        </div>
+        Displaying from indexes {{ pagination.startIndex }} to {{ pagination.endIndex }}
+    </div>           
+
+             
+            
+                
+                
+                       
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
+    <script src="script.js"></script>
+    
+    
+      
+
+
+
+    </body>
+</html>
+
