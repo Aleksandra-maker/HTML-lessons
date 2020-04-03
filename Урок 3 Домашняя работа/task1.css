@@ -1,0 +1,73 @@
+h1 {
+    text-align: right;
+    color: orange;
+    font-weight: bold;
+
+}
+p {
+    font-weight: 500;
+}
+p:first-letter {
+    font-family: "Times New Roman", Times, serif; /* Гарнитура шрифта первой буквы */
+    font-size: 200%; /* Размер шрифта первого символа */
+    color: red; 
+    font-weight: bold;
+}
+i {
+    background-color: green;
+    color: white;
+}
+
+.veg {
+}
+
+.veg h2 {
+    color: orange;  
+}
+
+.veg .fruit ol{
+    color: grey;
+}
+.store {
+
+}
+.store h2 {
+    color: blue;
+
+}
+.store .fruit ol{
+    color: green;
+}
+
+.name {
+    color: red;
+}
+
+.number {
+    color: white;
+}
+
+
+
+ul {
+    font-weight: bold; 
+}
+ol {
+    font-weight: normal; 
+    color: red;
+}
+
+td {
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+
+.name {
+    background-color: white;
+    color: orange;
+    text-align: left;
+}
+th {
+    text-align: center;
+}
