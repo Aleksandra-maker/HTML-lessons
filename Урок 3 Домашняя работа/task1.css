@@ -63,11 +63,16 @@ td {
     text-align: center;
 }
 
-.name {
+
+td:first-child {
     background-color: white;
     color: orange;
     text-align: left;
 }
+
+
+
 th {
     text-align: center;
 }
+
