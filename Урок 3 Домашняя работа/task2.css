@@ -1,0 +1,18 @@
+a[href*=Google] {
+    color: #666;
+}
+a[href*=ya] {
+    color: orange;
+    
+}
+
+a[href]{
+    text-decoration: none;
+}
+
+a[target="_blank"]:after {
+    text-decoration: underline;
+    content: ' \21F1';
+    color: red;
+    background-color: palegreen;
+}
