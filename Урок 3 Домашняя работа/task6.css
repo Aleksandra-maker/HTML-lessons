@@ -1,0 +1,67 @@
+input {
+    display: none
+
+}
+input[id="red"]:checked ~ label[for="red"] {
+    color: red;
+    text-decoration: red underline;
+}
+
+input[id="red"] ~ label[for="red"] {
+    color: rgb(238, 160, 160);
+    text-decoration: rgb(238, 160, 160) underline;
+}
+input[id="green"]:checked ~ label[for="green"] {
+    color:green;
+    text-decoration: green underline;
+}
+
+input[id="green"] ~ label[for="green"] {
+    color: rgb(141, 223, 166);
+    text-decoration: rgb(141, 223, 166) underline;
+}
+input[id="blue"]:checked ~ label[for="blue"] {
+    color: blue;
+    text-decoration: blue underline;
+}
+
+input[id="blue"] ~ label[for="blue"] {
+    color: rgb(99, 110, 209);
+    text-decoration: rgb(99, 110, 209)  underline;
+}
+
+input[id="red"]:checked ~ .red {
+    visibility: visible;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 1px;
+    display: inline;
+    
+}
+input[id="green"]:checked ~ .green {
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    padding: 1px;
+    display: inline;
+}
+input[id="blue"]:checked ~ .blue {
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 1px;
+    display: inline;
+}
+input[id="red"] ~ .red {
+    
+    display: none;
+}
+input[id="green"] ~ .green {
+    
+    display: none;
+}
+input[id="blue"] ~ .blue {
+    
+    display: none;
+}
