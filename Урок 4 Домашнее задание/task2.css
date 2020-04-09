@@ -1,0 +1,41 @@
+body {
+    margin-top: 17px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+p {
+    display: inline-block;
+    background-color: #A64DFF;
+    width: 100%;
+    min-width: 900px;
+    font-size: 0px;
+    height: 38px;
+   
+    
+}
+a {
+    float: left;
+    font-family: "Oswald";
+    line-height: 38px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    font-size: 15px;
+    
+
+}
+a:hover {
+    background-color: greenyellow;
+    
+ 
+}
+a:first-child {
+    float: left;
+    margin-left: 100px;
+    
+}
+a:last-child {
+    float: right;
+    margin-right: 100px;
+}
