@@ -1,0 +1,24 @@
+
+.body{
+    font-size: 24px;
+}
+.holder{
+    position: relative; 
+    height: 150px;
+    padding: 20px;
+    background: #ecc;
+    border: 10px solid blue;
+}
+
+.position 
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+}
+
+
+
