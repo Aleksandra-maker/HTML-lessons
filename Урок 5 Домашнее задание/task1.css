@@ -1,0 +1,74 @@
+body {
+    
+    margin-top: 17px;
+    margin-left: 0px;
+    margin-right: 0px;
+   
+    
+}
+
+ul {
+    position: relative;
+    background-color: #1AA4FF;
+    font-size: 0;
+    height: 38px;
+    width: 100%;
+    display: block;
+}
+
+li {
+    float:left;
+}
+
+
+
+li a {
+    display: inline-block;
+    line-height: 38px;
+    color: #ffffff; 
+    padding-right: 16px; 
+    padding-left: 16px;
+    font-family: "Oswald";
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+ 
+}
+
+li a:hover {
+    background-color: #eeeeee;
+    color: #A0A0A0;
+}
+
+
+li:first-child {
+    margin-left: 42px;
+}
+
+ul li ul {
+    position: absolute;
+    visibility: hidden;
+    width: 100%;
+    height: 38px;
+}
+
+
+ul li:hover ul {
+    background-color: #eeeeee;
+    position: absolute;
+    visibility: visible;
+    width: 100%;
+    height: 38px;
+    left: 0;
+    color: #A0A0A0;
+}
+
+ul li ul a {
+    text-transform: capitalize;
+    color: #A0A0A0;
+}
+
+Ul li ul a:hover {
+    color: black;
+    background-color: white;
+}
