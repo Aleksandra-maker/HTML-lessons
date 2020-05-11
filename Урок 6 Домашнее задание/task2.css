@@ -44,7 +44,7 @@
     float: left;
     text-align: left;
     -background-color: red;
-    width: 1147px;
+    max-width: 1147px;
     display: -webkit-flex;
     display: flex;
     flex-wrap: wrap;
@@ -71,21 +71,20 @@
 
 .customer {
     
-    float: left;
-    position: relative;
-    background-color: white;
-    width: 364px;
-    height: 98px;
-    display: flex;
+   float: left;
+   position: relative;
+   background-color: white;
+   width: 364px;
+   height: 98px;
+   display: flex;
    display: -webkit-flex;
    -webkit-flex-wrap: wrap;
    flex-wrap: wrap;
    padding-left: 18px;
-   padding-right: 42px;
+   padding-right: 18px;
    margin-left: 26px;
     
 }
-
 
 
 .testimonial img{
@@ -94,9 +93,6 @@
     width: 98px;
     
 }
-
-
-
 
 
 .customer:before{
@@ -127,6 +123,10 @@
     text-align: right;
 }
 .customer p{
+    border-top: 1px dashed #467cae;
+    margin-top: 0px;
+
+    padding-top: 15px;
     color: #737373;
     font-size: 13px;
     float: none;
