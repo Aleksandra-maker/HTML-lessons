@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+}
+
+
+.panel {
+    background-color: #FFCC66;
+    
+    min-height: ;
+   
+    
+    
+    vertical-align: middle;
+    height: 53px;
+    min-width: 579px;
+    width: 90%;
+
+    position: relative;
+    
+   
+}
+.panel::after {
+    position: absolute;
+    content: '';
+    left: 100%; top: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 27px 0 26px 13px;
+    border-color: transparent transparent transparent  #FFCC66;
+}
+
+
+.panel .search input[type="text"] {
+    
+    height: 22px;
+    min-width: 456px;
+    width: 80%;
+    border-top: 1px solid #A3A3A3;
+    border-right: 1px solid #A3A3A3;
+    border-left: 1px solid #A3A3A3;
+    border-bottom: 1px solid #E5E5E5;
+    box-shadow: 0 2px 2px #E5E5E5 inset;
+    margin-top: 5px;
+    margin-left: 4px;
+    margin-right: 0;
+    margin-bottom: 0px;
+    
+}
+
+
+.panel button {
+    width: 69px;
+    padding: 0;
+    height: 26px;
+    line-height: 22px;
+    border-radius: 2px;
+    font-family: "Trebuchet MS";
+    display: inline-block;
+    position: relative;
+    border: 1px solid #A3A3A3;
+    border-radius: 3px;
+    align-items: center;
+    vertical-align: middle;
+    background: linear-gradient(to top,  #E5E5E5, white);
+    
+    
+    
+    
+    border-bottom: 1px solid #A3A3A3;
+    border-right: 1px solid #A3A3A3;
+    border-left: 1px solid #A3A3A3;
+    border-top: 1px solid #E5E5E5;
+    box-shadow: 0 2px 2px #E5E5E5 inset;
+    margin-top: 5px;
+    margin-left: 4px;
+    margin-right: 0;
+    margin-bottom: 8px;
+   
+
+}
+
+.search {
+    height: 31px;
+    width: 100%;
+}
+
+.panel .checkbox input[type="checkbox"] {
+    visibility: hidden;
+    position: relative;
+}
+
+.panel .checkbox input[type="checkbox"]::before {
+    visibility: visible;
+    
+
+    height: 10px;
+    border: 1px solid #9c7d3e;
+    border-radius: 3px;
+   background: linear-gradient(to top,  #E5E5E5, white);
+   
+    
+   content: '';
+   
+   width: 10px;
+   
+   -transition: 0.3s;
+   position: absolute;
+   top: 3px;
+   left: -4px;
+    
+    margin-top: 0px;
+    margin-left: 4px;
+    margin-right: 0;
+    margin-bottom: 0px;
+}
+.panel .checkbox input[type="checkbox"]:checked::before {
+    content: '\2714'; 
+    font-size: 11px;
+    line-height: 11px;
+    
+
+}
+
+
+
+.panel label {
+    line-height: 25px;
+    position: relative;
+    top: -2px;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+
+    font-family: "Trebuchet MS";
+   
+    -transform: translateX(20px);
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 3px;
+    
+    
+    
+    
+}
+

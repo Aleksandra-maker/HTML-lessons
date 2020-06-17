@@ -1,0 +1,24 @@
+
+@font-face {
+    src: url(futura-book-bt-22240.ttf) format('truetype');
+    font-family: "Futura Bk BT"
+}
+
+
+.site {
+    background-color: white;
+    min-width: 1400px;
+    display: inline-block;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    
+}
+
+
+html {
+    margin: 0;
+
+}

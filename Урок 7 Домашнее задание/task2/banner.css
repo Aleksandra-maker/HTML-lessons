@@ -1,0 +1,46 @@
+.banner {
+    padding: 0;
+    display: inline-block;
+    margin: 0;
+    background-image: url(banner.png);
+    width: 1400px;
+    height: 588px;
+}
+.banner p {
+    color: white;
+}
+
+.text1 {
+    font-family: "Futura Bk BT", arial;
+    font-weight: normal;
+    font-size: 36px;
+    padding-top: 150px;
+    margin: 0;
+}
+.text2 {
+    font-family: 'Futura-Bold', arial;
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: 700;
+    padding-top: 8px;
+    margin: 0;
+    line-height: 0,9em;
+}
+.text3 {
+    font-family: "Futura Bk BT", arial;
+    font-style: italic;
+    font-size: 20px;
+    padding-top: 17px;
+    margin: 0;
+    line-height: 30px;
+}
+.banner button {
+background-color: transparent;
+color: white;
+font-size: 16px;
+text-transform: uppercase;
+border: 1px solid #97a6b2;
+border-radius: 1px;
+padding: 21px 63px;
+margin-top: 30px;
+}
