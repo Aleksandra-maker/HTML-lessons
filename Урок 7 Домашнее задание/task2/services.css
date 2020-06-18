@@ -1,0 +1,45 @@
+
+
+
+.service h2 {
+    margin: 0;
+    font-size: 30px;
+    color:#41525c;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    padding-top: 67px;
+    padding-bottom: 79px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+}
+
+.icons object {
+    
+    display: inline-block;
+    margin-right: 107px;
+    margin-left: 107px;
+    
+}
+.icons h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    color:#41525c;
+    margin: 0;
+    padding-top: 34px;
+    padding-bottom: 27px;
+    font-weight: lighter;
+     
+}
+.icons p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    color: #cfcfcf;
+    margin: 0;
+    padding-bottom: 62px;
+    line-height: 1.5;
+    text-align: center;
+}

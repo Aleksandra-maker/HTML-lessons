@@ -1,0 +1,41 @@
+.middle-section {
+    padding: 0;
+    display: inline-block;
+    margin: 0;
+    background-image: url(middle-section.png);
+    width: 1400px;
+    height: 577px;
+}
+.middle-section h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ee8129;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: bolder;
+    line-height: 2;
+    text-align: left;
+    margin: 0;
+    padding-left: 189px;
+    padding-top: 90px;
+    font-weight: 500;
+}
+.middle-section h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 19px;
+    color: #c5c6c5;
+    font-style: italic;
+    text-align: left;
+    padding-left: 189px;
+    font-weight: lighter;
+    padding-bottom: 22px;
+}
+.middle-section li {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px; 
+    line-height: 2;
+    text-align: left;
+    padding-left: 12px;
+    color: #9d9d9d;
+    margin-left: 177px;
+    content: "-";
+}
