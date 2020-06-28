@@ -1,0 +1,107 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    display: inline-block;
+    margin: 0;
+    width: 100%;
+    
+    
+}
+
+.upperblock {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    
+    text-align: left;
+    width: 50%;
+    justify-content: center;
+   
+}
+
+.contacts ul {
+    position: relative;
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    list-style-type: none;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+
+   
+}
+
+.contacts li {
+    display: flex;
+    vertical-align: middle;
+    flex-direction: row;
+    position: relative;
+    line-height: 2;
+    color: #666666;
+    
+}
+
+.contacts li:nth-child(5)  {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contacts .list object {
+    position: absolute;
+    left: -40px;
+       
+}
+
+
+.contacts .list object[data="Layer97.svg"] {
+    top: 5px;
+}
+
+.contacts .list object[data="phone.svg"] {
+   top: 12px;
+}
+
+.contacts .list object[data="email.svg"] {
+   top: 8px; 
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.social object {
+    margin-left: 11px;
+    margin-right: 11px;
+}
+.map {
+    height: 345px;
+}
+.map img{
+    margin: 0;
+        
+}
+.copyright {
+    background-color: #3070a8;
+    height: 103px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 28px;
+    margin: 0;
+    line-height: 2;
+    color: #ffffff;
+}
+.copyright span {
+    color: #1d1c1c;
+    padding-left: 5px;
+    font-weight: 900;
+}

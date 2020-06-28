@@ -4,12 +4,17 @@
     font-family: "Futura Bk BT"
 }
 
-
+body {
+    display: flex;
+    justify-content: center;
+}
 .site {
     background-color: white;
     min-width: 1400px;
-    display: inline-block;
+    display: flex;
     text-align: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 body {

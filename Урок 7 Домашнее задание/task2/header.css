@@ -1,14 +1,17 @@
 .header {
     height: 116px;
+    max-width: 1440px;
+    justify-content: center;
     
-    
-    
+    margin-bottom: 1px;
     
     
 
 }
 .header .logo {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    -display: inline-block;
     float: left;
     font-size: 0px;
     
@@ -52,7 +55,7 @@
 }
 
 .header p {
-    
+    float: right;
     margin: 0;
     
 
@@ -87,4 +90,5 @@
 .header a:hover {
     color: #3070a8;
     border-bottom: 4px solid #3070a8;
+    top: -4px;
 }
